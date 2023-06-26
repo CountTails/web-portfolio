@@ -2,3 +2,10 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Nathan C. Mendoza'
 theme = 'm10c'
+
+[params]
+    author = 'Nathan C. Mendoza'
+    description = 'UCI Graduate'
+    avatar = '/avatar.png'
+    menu_item_separator = ' | '
+    favicon = '/favicon.ico'
