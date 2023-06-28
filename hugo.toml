@@ -7,5 +7,35 @@ theme = 'm10c'
     author = 'Nathan C. Mendoza'
     description = 'UCI Graduate'
     avatar = '/avatar.png'
-    menu_item_separator = ' | '
+    menu_item_separator = '</br>'
     favicon = '/favicon.ico'
+
+[[params.social]]
+    icon = "github"
+    name = "My Github"
+    url = "https://github.com/nathancmendoza"
+
+[[params.social]]
+    icon = "linkedin"
+    name = "My LinkedIn profile"
+    url = "www.linkedin.com/in/nathan-mendoza-23b0a716b"
+
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+
+[[menu.main]]
+    identifier = "experience"
+    name = "Experience"
+    url = "/experience/"
+
+[[menu.main]]
+    identifier = "education"
+    name = "Education"
+    url = "/education/"
+
+[[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
