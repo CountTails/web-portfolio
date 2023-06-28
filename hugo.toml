@@ -39,3 +39,8 @@ theme = 'm10c'
     identifier = "projects"
     name = "Projects"
     url = "/projects/"
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
