@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nathan C. Mendoza</title>
+    <link>https://nathancmendoza.live/</link>
+    <description>Recent content on Nathan C. Mendoza</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Jun 2023 14:27:19 -0700</lastBuildDate><atom:link href="https://nathancmendoza.live/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>School 1</title>
+      <link>https://nathancmendoza.live/education/school-1/</link>
+      <pubDate>Wed, 28 Jun 2023 14:27:19 -0700</pubDate>
+      
+      <guid>https://nathancmendoza.live/education/school-1/</guid>
+      <description>This is the school 1 page </description>
+    </item>
+    
+    <item>
+      <title>Job 1</title>
+      <link>https://nathancmendoza.live/experience/job-1/</link>
+      <pubDate>Wed, 28 Jun 2023 14:26:23 -0700</pubDate>
+      
+      <guid>https://nathancmendoza.live/experience/job-1/</guid>
+      <description>This is the job 1 page </description>
+    </item>
+    
+    <item>
+      <title>Project 2</title>
+      <link>https://nathancmendoza.live/projects/project-2/</link>
+      <pubDate>Wed, 28 Jun 2023 14:25:07 -0700</pubDate>
+      
+      <guid>https://nathancmendoza.live/projects/project-2/</guid>
+      <description>This is the project 2 page </description>
+    </item>
+    
+    <item>
+      <title>Project 1</title>
+      <link>https://nathancmendoza.live/projects/project-1/</link>
+      <pubDate>Wed, 28 Jun 2023 14:25:05 -0700</pubDate>
+      
+      <guid>https://nathancmendoza.live/projects/project-1/</guid>
+      <description>This is the project 1 page </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://nathancmendoza.live/about/</link>
+      <pubDate>Wed, 28 Jun 2023 14:24:37 -0700</pubDate>
+      
+      <guid>https://nathancmendoza.live/about/</guid>
+      <description>This it the about me page </description>
+    </item>
+    
+  </channel>
+</rss>

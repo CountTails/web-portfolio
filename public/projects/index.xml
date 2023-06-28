@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Nathan C. Mendoza</title>
+    <link>https://nathancmendoza.live/projects/</link>
+    <description>Recent content in Projects on Nathan C. Mendoza</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Jun 2023 14:25:07 -0700</lastBuildDate><atom:link href="https://nathancmendoza.live/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 2</title>
+      <link>https://nathancmendoza.live/projects/project-2/</link>
+      <pubDate>Wed, 28 Jun 2023 14:25:07 -0700</pubDate>
+      
+      <guid>https://nathancmendoza.live/projects/project-2/</guid>
+      <description>This is the project 2 page </description>
+    </item>
+    
+    <item>
+      <title>Project 1</title>
+      <link>https://nathancmendoza.live/projects/project-1/</link>
+      <pubDate>Wed, 28 Jun 2023 14:25:05 -0700</pubDate>
+      
+      <guid>https://nathancmendoza.live/projects/project-1/</guid>
+      <description>This is the project 1 page </description>
+    </item>
+    
+  </channel>
+</rss>
