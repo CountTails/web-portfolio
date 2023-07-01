@@ -4,6 +4,8 @@ date: 2023-06-29T17:21:40-07:00
 draft: true
 ---
 
+> Active: 9/2019 - 6/2023
+
 ### Next steps in a journey
 
 From September 2019 to June 2023 I attended the University of California, Irvine ([UCI](https://uci.edu)). Upon admission, I was accepted as a computer science major. However, I would eventually transition to become a Software Engineering major. The two majors are quite similar. They share many of the same courses and have a strong focus on the theoretical aspects of their respective fields. The biggest difference that sets them apart is the way that the content is taught. As a software engineering major, I learned about the same things that a computer science major would learn, but through the lens of building functional software.

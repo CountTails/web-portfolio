@@ -4,6 +4,8 @@ date: 2023-06-28T23:14:48-07:00
 draft: true
 ---
 
+> Active: 8/2015-5/2019
+
 ### The start of a journey
 
 From August 2015 for May 2019, I attended [Loara HS](https://loara.auhsd.us) in Anaheim, California. This time was filled with discovering new knowledge and and subjects. As with most people at this age, I had yet to consider what I wanted to do after high school. Fortunately, that question would be answered long before I graduated.
