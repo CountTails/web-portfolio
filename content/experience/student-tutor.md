@@ -4,6 +4,8 @@ date: 2023-06-30T18:29:51-07:00
 draft: true
 ---
 
+> Active: 9/2020 - 6/2022
+
 ### Helping others 
 
 During college, I discovered an oppurtunity to help other students with coursework that I have already passed. This is beneficial for both me and the students that I helped. For me, it would be a good way to review the content that I have already covered. For the students, it provided them with a more relatable source to seek assistance with coursework (Talking to professors can sometimes can be daunting). This oppurtunity was presented during the midst of the covid-19 pandemic and was offered as a remote position.

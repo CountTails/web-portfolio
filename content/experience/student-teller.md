@@ -4,6 +4,8 @@ date: 2023-06-30T17:31:20-07:00
 draft: true
 ---
 
+> Active: 8/2018 - 5/2019
+
 ### First professional computing
 
 During my final year of high school, the oppurtunity to work as a student teller at a campus branch became available. The branch was operated by Union Bank (now US bank) and allowed a select group of students to work as a bank teller. Since foot traffic at a bank situated inside a high school campus was limited to faculty and students, most of the work consisted of improving professional skills. The few times that a customer did walk into the branch also provided hands on experience with working with customers.
