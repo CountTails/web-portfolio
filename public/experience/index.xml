@@ -6,14 +6,46 @@
     <description>Recent content in Experiences on Nathan C. Mendoza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jun 2023 14:26:23 -0700</lastBuildDate><atom:link href="https://nathancmendoza.live/experience/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 20:19:02 -0700</lastBuildDate><atom:link href="https://nathancmendoza.live/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Job 1</title>
-      <link>https://nathancmendoza.live/experience/job-1/</link>
-      <pubDate>Wed, 28 Jun 2023 14:26:23 -0700</pubDate>
+      <title>Software Engineering Internship</title>
+      <link>https://nathancmendoza.live/experience/software-engineering-internship/</link>
+      <pubDate>Fri, 30 Jun 2023 20:19:02 -0700</pubDate>
       
-      <guid>https://nathancmendoza.live/experience/job-1/</guid>
-      <description>This is the job 1 page </description>
+      <guid>https://nathancmendoza.live/experience/software-engineering-internship/</guid>
+      <description>Active: 6/2022 - 9/2022
+Some Real World Experience The summer between my third and fourth year of college, I applied for and was accepted for an internship at Box. During my short tenure at the company, I was part of the MySQL engineering team. This team is responsible for managing and automating various processes and services that makeup the database infrastructure that supports the company.
+The internship was designed to have me work on a singular project throughout the 12 week program.</description>
+    </item>
+    
+    <item>
+      <title>Coding Minds Instructor</title>
+      <link>https://nathancmendoza.live/experience/coding-minds-instructor/</link>
+      <pubDate>Fri, 30 Jun 2023 19:48:51 -0700</pubDate>
+      
+      <guid>https://nathancmendoza.live/experience/coding-minds-instructor/</guid>
+      <description>Active: 6/2022-6/2023
+Fostering Programming in the Youth During my final year of schooling, I took a position to teach the basic a programming to younger students. These students were typically in elementary school age. A few students were middle or high school age. My role as a leading instructor had me teach and explain the basic of many programming topic. As the learning process is much different between young children and college students, the courses focused more on getting the children to write code that would work quickly.</description>
+    </item>
+    
+    <item>
+      <title>Student Tutor</title>
+      <link>https://nathancmendoza.live/experience/student-tutor/</link>
+      <pubDate>Fri, 30 Jun 2023 18:29:51 -0700</pubDate>
+      
+      <guid>https://nathancmendoza.live/experience/student-tutor/</guid>
+      <description>Active: 9/2020 - 6/2022
+Helping others During college, I discovered an oppurtunity to help other students with coursework that I have already passed. This is beneficial for both me and the students that I helped. For me, it would be a good way to review the content that I have already covered. For the students, it provided them with a more relatable source to seek assistance with coursework (Talking to professors can sometimes can be daunting).</description>
+    </item>
+    
+    <item>
+      <title>Student Teller</title>
+      <link>https://nathancmendoza.live/experience/student-teller/</link>
+      <pubDate>Fri, 30 Jun 2023 17:31:20 -0700</pubDate>
+      
+      <guid>https://nathancmendoza.live/experience/student-teller/</guid>
+      <description>Active: 8/2018 - 5/2019
+First professional computing During my final year of high school, the oppurtunity to work as a student teller at a campus branch became available. The branch was operated by Union Bank (now US bank) and allowed a select group of students to work as a bank teller. Since foot traffic at a bank situated inside a high school campus was limited to faculty and students, most of the work consisted of improving professional skills.</description>
     </item>
     
   </channel>
