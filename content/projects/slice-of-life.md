@@ -1,7 +1,7 @@
 ---
 title: "Slice of Life"
 date: 2023-07-03T12:21:43-07:00
-draft: true
+draft: false
 ---
 
 > Source Code: https://github.com/orgs/slice-of-life/repositories

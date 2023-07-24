@@ -1,7 +1,7 @@
 ---
 title: "Coding Minds Instructor"
 date: 2023-06-30T19:48:51-07:00
-draft: true
+draft: false
 ---
 
 > Active: 6/2022-6/2023

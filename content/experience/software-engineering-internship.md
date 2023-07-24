@@ -1,7 +1,7 @@
 ---
 title: "Software Engineering Internship"
 date: 2023-06-30T20:19:02-07:00
-draft: true
+draft: false
 ---
 
 > Active: 6/2022 - 9/2022

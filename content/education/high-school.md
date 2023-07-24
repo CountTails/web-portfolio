@@ -1,7 +1,7 @@
 ---
 title: "High School"
 date: 2023-06-28T23:14:48-07:00
-draft: true
+draft: false
 ---
 
 > Active: 8/2015-5/2019

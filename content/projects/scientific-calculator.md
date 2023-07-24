@@ -1,7 +1,7 @@
 ---
 title: "Scientific Calculator"
 date: 2023-07-03T11:55:58-07:00
-draft: true
+draft: false
 ---
 
 > Source Code: https://github.com/nathancmendoza/PyCalc

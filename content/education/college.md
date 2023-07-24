@@ -1,7 +1,7 @@
 ---
 title: "College"
 date: 2023-06-29T17:21:40-07:00
-draft: true
+draft: false
 ---
 
 > Active: 9/2019 - 6/2023

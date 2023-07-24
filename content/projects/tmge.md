@@ -1,7 +1,7 @@
 ---
 title: "Tmge"
 date: 2023-07-03T12:49:38-07:00
-draft: true
+draft: false
 ---
 
 > Source Code: https://github.com/orgs/inf122-tmge-winter-2023/repositories
