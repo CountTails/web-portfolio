@@ -18,7 +18,7 @@ theme = 'm10c'
 [[params.social]]
     icon = "linkedin"
     name = "My LinkedIn profile"
-    url = "www.linkedin.com/in/nathan-mendoza-23b0a716b"
+    url = "https://www.linkedin.com/in/nathan-mendoza-23b0a716b"
 
 [[menu.main]]
     identifier = "home"
