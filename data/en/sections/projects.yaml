@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+
+# your projects
+projects:
+- name: Idea Bank
+  logo: /images/projects/idea_bank.png
+  role: Backend Lead
+  timeline: "March 2023 - June 2023"
+  repo: "https://github.com/orgs/idea-bank/repositories"
+  summary: An early prototype of a web3-compatible platform for creating, sharing, and tracking ideas.
+  tags: ["academic", "web-api", "web3", "nextjs"]
+
+- name: Tile Matching Game Environment (TMGE)
+  logo: "/images/projects/tmge.png"
+  role: Contributor
+  timeline: "January 2023 - March 2023"
+  repo: "https://github.com/orgs/inf122-tmge-winter-2023/repositories"
+  summary: A practical application of studied software design patterns.
+  tags: ["academic", "python", "design-patterns"]
+
+- name: Slice of Life
+  logo: "/images/projects/slice_of_life.png"
+  role: Backend Lead
+  timeline: "September 2022 - December 2022"
+  repo: "https://github.com/orgs/slice-of-life/repositories"
+  summary: "An exploration of a new form of social media application based on BeReal."
+  tags: ["hobby", "web-api", "angular"]
