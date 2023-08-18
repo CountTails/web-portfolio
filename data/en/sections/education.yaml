@@ -1,0 +1,16 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+degrees:
+- name: B.S. in Software Engineering
+  icon: fa-graduation-cap
+  timeframe: 2019-2023
+  institution:
+    name: University of California, Irvine
+    url: "https://www.uci.edu"

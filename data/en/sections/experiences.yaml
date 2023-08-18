@@ -1,0 +1,51 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: "Coding Minds LLC"
+    url: "https://codingmindsacademy.com"
+    location: "Irvine, CA"
+    overview: "Teaches the trending and practical programming skills to k-12 students"
+
+  positions:
+  - designation: "Instructor"
+    start: Sept 2022
+    end: June 2023
+    responsibilities: 
+      - Utilized a prescribed curriculum to introduce programming to young students.
+      - Adapted lessons and activities to keep students engaged with programming.
+      - Fostered continued interest leading to retention of students.
+
+- company: 
+    name: Box Inc.
+    url: "https://www.box.com"
+    location: "Redwood City, CA"
+    overview: "Simplifying the the way we work through cloud-based collaboration tools"
+  positions:
+  - designation: "Software Engineering Intern"
+    start: June 2022
+    end: Sept 2022
+    responsibilities:
+      - Developed understanding of practices and tools used to develop and deliver software.
+      - Collaborated with experienced employees to build a new system.
+      - Implemented and tested the first part of a replacement system.
+
+- company:
+    name: "University of California, Irvine"
+    url: "https://www.uci.edu"
+    location: "Irvine, CA"
+    overview: Assisting students in introductory programming courses with their lab assignments.
+  positions:
+  - designation: "I&CS Lab Tutor"
+    start: Sept 2021
+    end: June 2022
+    responsibilities:
+      - Guided students through coursework in lower division classes.
+      - Explored possible solutions and explained unclear concepts to students.
+      - Reduced the number of students seeking help for their classes by at least 50%

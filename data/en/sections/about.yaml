@@ -1,0 +1,79 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Recent College Graduate (Class of 2023)
+# your company information
+company:
+  name: University of California, Irvine
+  url: "https://www.uci.edu"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am an eager recent college graduate with a degree in Software Engineering. I am ready to begin my career in the computer programming industry.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/nathancmendoza"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/nathan-mendoza-23b0a716b"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: soft-skill-indicator
+  name: "Time Management"
+  percentage: 85
+  color: "#69B34C"
+
+- type: soft-skill-indicator
+  name: "Managing change"
+  percentage: 80
+  color: "#ACB334"
+
+- type: soft-skill-indicator
+  name: "Learning Agility"
+  percentage: 80
+  color: "#ACB334"
+
+- type: soft-skill-indicator
+  name: "Decision Making"
+  percentage: 75
+  color: "#FAB733"
+
+- type: soft-skill-indicator
+  name: "Conflict Management"
+  percentage: 65
+  color: "#FF8E15"
+
+- type: soft-skill-indicator
+  name: "Problem Solving"
+  percentage: 60
+  color: "#FF8E15"
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
