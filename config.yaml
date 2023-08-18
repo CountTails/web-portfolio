@@ -46,6 +46,12 @@ params:
   # specify whether you want the language flags to be displayed. 
   showFlags: true
 
+
+  # Enable dark mode
+  darkMode:
+    enable: true
+    provider: darkreader
+    default: system
   # Provide newsletter configuration. 
   # This feature has been implemented for Mailchimp only for now.
   # You can also hide it from the footer.
