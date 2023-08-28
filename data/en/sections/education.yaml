@@ -14,3 +14,8 @@ degrees:
   institution:
     name: University of California, Irvine
     url: "https://www.uci.edu"
+  grade:
+    scale: "CGPA"
+    achieved: 3.841
+    outOf: 4.0
+
