@@ -21,7 +21,7 @@ projects:
 - name: Idea Bank
   logo: /images/projects/idea_bank.png
   role: Backend Lead
-  timeline: "March 2023 - June 2023"
+  timeline: "January 2023 - June 2023"
   repo: "https://github.com/orgs/idea-bank/repositories"
   summary: An early prototype of a web3-compatible platform for creating, sharing, and tracking ideas.
   tags: ["academic", "web-api", "web3", "nextjs"]
