@@ -35,12 +35,12 @@ skills:
 
 - name: Nginx
   logo: "/images/tools/Nginx.png"
-  summary: "Capable of configuring a Nginx server instance as either a forward or reverse proxy. Familiar with HTTPS certificate management."
+  summary: "Capable of configuring a Nginx server instance as either a forward or reverse proxy. Familiar with SSL certificate management."
   url: "https://www.nginx.com"
 
 - name: Git
   logo: "/images/tools/git.png"
-  summary: "Capable of authoring, pushing, and merging commits. Familiar with decentralized contribution that may lead to merge conflicts."
+  summary: "Capable of authoring, pushing, and merging commits. Familiar with resolving decentralized contributions that may lead to merge conflicts."
   url: "https://git-scm.com"
 
 - name: Amazon Web Services (AWS)
