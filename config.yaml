@@ -33,6 +33,11 @@ enableEmoji: true
 params:
   # background image for the landing image
   background: "images/site/background.jpg"
+  # Logos
+  logo:
+    main: /images/site/main-logo.png
+    inverted: /images/site/inverted-logo.png
+    favicon: /images/site/favicon.png
   # GitHub repo URL and branch of your site
   gitRepo: https://github.com/nathancmendoza/web-portfolio
   gitBranch: main
