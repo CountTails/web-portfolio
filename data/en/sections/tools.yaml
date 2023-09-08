@@ -9,45 +9,45 @@ section:
 
 skills:
 - name: Windows
-  logo: "/images/tools/windows.png"
+  logo: images/tools/windows.png
   summary: "Capable of utilizing a windows machine and appropriate tools to write and debug code. Familiar with the command prompt."
   url: "https://www.microsoft.com/en-us/windows/"
 
 - name: Linux
-  logo: "/images/tools/linux.png"
+  logo: images/tools/linux.png
   summary: "Capable of utilizing a linux machine and appropriate tools to write and debug code. Familiar with the shell."
   url: "https://www.linuxfoundation.org"
 
 - name: Docker
-  logo: "/images/tools/docker.svg"
+  logo: images/tools/docker.svg
   summary: "Capable of creating containerized application that are ready-to-run. Familiar with docker volumes and networking basics."
   url: "https://www.docker.com"
 
 - name: MySQL
-  logo: "/images/tools/mysql.png"
+  logo: images/tools/mysql.png
   summary: "Capable of adminstrating a MySQL database with appropriate permissions. Familiar with replication and backup theory."
   url: "https://www.mysql.com"
 
 - name: PostgreSQL
-  logo: "/images/tools/postgresql.png"
+  logo: images/tools/postgresql.png
   summary: "Capable of adminstrating a PostgreSQL database with appropriate permissions. Familiar with execution plans and indexing."
   url: "https://www.postgresql.org"
 
 - name: Nginx
-  logo: "/images/tools/Nginx.png"
+  logo: images/tools/Nginx.png
   summary: "Capable of configuring a Nginx server instance as either a forward or reverse proxy. Familiar with SSL certificate management."
   url: "https://www.nginx.com"
 
 - name: Git
-  logo: "/images/tools/git.png"
+  logo: images/tools/git.png
   summary: "Capable of authoring, pushing, and merging commits. Familiar with resolving decentralized contributions that may lead to merge conflicts."
   url: "https://git-scm.com"
 
 - name: Amazon Web Services (AWS)
-  logo: "/images/tools/aws.png"
+  logo: images/tools/aws.png
   summary: "Capable of utilizing off-premesis comuting power. In particular, AWS lambda, API gateway, and AWS ECS."
   url: "https://aws.amazon.com"
 
 - name: Digital Ocean
-  logo: "/images/tools/do.png"
+  logo: images/tools/do.png
   summary: "Capable of utilizing off-premesis databases and filesystems. In particular, managed databases and S3 compatible object storage."

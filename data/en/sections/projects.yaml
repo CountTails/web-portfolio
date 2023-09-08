@@ -19,7 +19,7 @@ buttons:
 # your projects
 projects:
 - name: Idea Bank
-  logo: /images/projects/idea_bank.png
+  logo: images/projects/idea_bank.png
   role: Backend Lead
   timeline: "January 2023 - June 2023"
   repo: "https://github.com/orgs/idea-bank/repositories"
@@ -27,7 +27,7 @@ projects:
   tags: ["academic", "web-api", "web3", "nextjs"]
 
 - name: Tile Matching Game Environment (TMGE)
-  logo: "/images/projects/tmge.png"
+  logo: images/projects/tmge.png
   role: Contributor
   timeline: "January 2023 - March 2023"
   repo: "https://github.com/orgs/inf122-tmge-winter-2023/repositories"
@@ -35,7 +35,7 @@ projects:
   tags: ["academic", "python", "design-patterns"]
 
 - name: Slice of Life
-  logo: "/images/projects/slice_of_life.png"
+  logo: images/projects/slice_of_life.png
   role: Backend Lead
   timeline: "September 2022 - December 2022"
   repo: "https://github.com/orgs/slice-of-life/repositories"
