@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: "Checkout Site"
         uses: actions/checkout@v2
