@@ -1,0 +1,32 @@
+name: Test Site Build
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site
+        uses: actions/checkout@v4.0.0
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install node modules
+        run: npm install
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2.6.0
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Install Site Theme
+        run: |
+          wget -c https://github.com/hugo-toha/toha/archive/refs/tags/v3.8.0.tar.gz -O - | tar -xz
+          mv toha-3.8.0/* themes/toha/ && rm -rf toha-3.8.0/
+
+      - name: Generate Site
+        run: hugo --minify
