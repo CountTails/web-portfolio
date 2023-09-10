@@ -34,7 +34,7 @@ skills:
   url: "https://www.postgresql.org"
 
 - name: Nginx
-  logo: images/tools/Nginx.png
+  logo: images/tools/nginx.png
   summary: "Capable of configuring a Nginx server instance as either a forward or reverse proxy. Familiar with SSL certificate management."
   url: "https://www.nginx.com"
 
