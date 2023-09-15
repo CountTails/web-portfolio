@@ -9,32 +9,32 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Python
-  logo: "images/langs/python.png"
+  logo: "images/langs/python.svg"
   summary: "The programming language that lets you work quickly and integrate systems more efficiently."
   url: "https://www.python.org"
 
 - name: Rust
-  logo: "images/langs/rust.png"
+  logo: "images/langs/rust.svg"
   summary: "The programming language that empowers all to build reliable and efficient software."
   url: "https://www.rust-lang.org"
 
 - name: Java
-  logo: "images/langs/java.png"
+  logo: "images/langs/java.svg"
   summary: "The programming language that runs on billions of devices everyday."
   url: "https://www.java.com/en/"
 
 - name: Shell
-  logo: "images/langs/shell.png"
+  logo: "images/langs/shell.svg"
   summary: "The way nerds (like me) prefer to interact with computers in today's GUI world."
   url: "https://www.gnu.org/software/bash/"
 
 - name: JavaScript
-  logo: "images/langs/js.png"
+  logo: "images/langs/js.svg"
   summary: "The lightweight interpreted scripting language for the web (and other stuff too)."
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 
 - name: C++
-  logo: "images/langs/c++.png"
+  logo: "images/langs/c++.svg"
   summary: "The versatile and powerful programming language that punishes devs for silly mistakes."
   url: "https://isocpp.org"
 
