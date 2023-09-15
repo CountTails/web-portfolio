@@ -1,0 +1,12 @@
+version: "2.0"
+
+services:
+    app:
+        container_name: web-portfolio
+        image: web-portfolio
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: unless-stopped
+        ports:
+            - "8080:8080"
