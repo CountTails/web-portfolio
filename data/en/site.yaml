@@ -18,6 +18,6 @@ openGraph:
 # Notebook link
 customMenus:
 - name: Notes
-  url: https://university-notebook.ncm.dev
+  url: https://notes.ncm.dev
   hideFromNavbar: false
   showOnFooter: true
