@@ -44,33 +44,33 @@ resourceLinks:
 badges:
 - type: soft-skill-indicator
   name: "Time Management"
+  percentage: 95
+  color: "#2CBA00"
+
+- type: soft-skill-indicator
+  name: "Learning Agility"
   percentage: 85
-  color: "#69B34C"
+  color: "#A3FF00"
+
+- type: soft-skill-indicator
+  name: "Problem Solving"
+  percentage: 80
+  color: "#A3FF00"
 
 - type: soft-skill-indicator
   name: "Managing change"
   percentage: 80
-  color: "#ACB334"
-
-- type: soft-skill-indicator
-  name: "Learning Agility"
-  percentage: 80
-  color: "#ACB334"
+  color: "#A3FF00"
 
 - type: soft-skill-indicator
   name: "Decision Making"
   percentage: 75
-  color: "#FAB733"
+  color: "#FFF400"
 
 - type: soft-skill-indicator
   name: "Conflict Management"
   percentage: 65
-  color: "#FF8E15"
-
-- type: soft-skill-indicator
-  name: "Problem Solving"
-  percentage: 60
-  color: "#FF8E15"
+  color: "#FFA700"
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
