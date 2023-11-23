@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Recent College Graduate (Class of 2023)
+designation: Recent Software Engineering Graduate
 # your company information
 company:
   name: University of California, Irvine
@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am an eager recent college graduate with a degree in Software Engineering. I am ready to begin my career in the computer programming industry.'
+summary: "I'm a recent Software Engineering graduate ready to confidently kickstart my career in computer programming. Fueled by curiosity, I eagerly embrace challenges and continuous learning in this dynamic industry."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -28,9 +28,9 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/nathancmendoza"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/nathan-mendoza-23b0a716b"
+- name: Email
+  icon: "fas fa-envelope"
+  url: "nathancm@uci.edu"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
