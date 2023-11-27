@@ -18,4 +18,103 @@ degrees:
     scale: "CGPA"
     achieved: 3.841
     outOf: 4.0
-
+  takenCourses:
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Senior Design Project
+      achieved: 28.0
+      outOf: 32.0
+    - name: Concepts in Programming Languages 2
+      achieved: 16.0
+      outOf: 16.0
+    - name: Project in Ubiquitous Computing
+      achieved: 16.0
+      outOf: 16.0
+    - name: "Software Design: Structure and Implementation"
+      achieved: 16.0
+      outOf: 16.0
+    - name: User Interaction Software
+      achieved: 16.0
+      outOf: 16.0
+    - name: Project Management
+      achieved: 14.8
+      outOf: 16.0
+    - name: Project in Algorithms and Data Structures
+      achieved: 16.0
+      outOf: 16.0
+    - name: Internet Apps Engineering
+      achieved: 16.0
+      outOf: 16.0
+    - name: Design and Analysis of Algorithms
+      achieved: 16.0
+      outOf: 16.0
+    - name: Concepts in Programming Languages 1
+      achieved: 16.0
+      outOf: 16.0
+    - name: Introduction to Data Management
+      achieved: 16.0
+      outOf: 16.0
+    - name: Principles of Operating Systems
+      achieved: 16.0
+      outOf: 16.0
+    - name: Software Testing and Quality Assurance
+      achieved: 16.0
+      outOf: 16.0
+    - name: "Software Design: Applications"
+      achieved: 16.0
+      outOf: 16.0
+    - name: Critical Writing in Information Technology
+      achieved: 16.0
+      outOf: 16.0
+    - name: Computer networks
+      achieved: 14.8
+      outOf: 16.0
+    - name: Requirements Analysis and Engineering
+      achieved: 16.0
+      outOf: 16.0
+    - name: Human Computer Interaction
+      achieved: 16.0
+      outOf: 16.0
+    - name: Discrete Math for Computer Science
+      achieved: 16.0
+      outOf: 16.0
+    - name: Programming in Java
+      achieved: 16.0
+      outOf: 16.0
+    - name: Data Structure Implementation and Analysis
+      achieved: 16.0
+      outOf: 16.0
+    - name: Internet Technology and Society
+      achieved: 14.8
+      outOf: 16.0
+    - name: Programming in C/C++
+      achieved: 16.0
+      outOf: 16.0
+    - name: Introduction to Computer Organization
+      achieved: 24.0
+      outOf: 24.0
+    - name: Introduction to Software Engineering
+      achieved: 16.0
+      outOf: 16.0
+    - name: Computer Games and Society
+      achieved: 16.0
+      outOf: 16.0
+    - name: Introduction to Probability and Statistics for Computer Science
+      achieved: 10.8
+      outOf: 16.0
+    - name: Boolean Logic and Discrete Structures
+      achieved: 13.2
+      outOf: 16.0
+    - name: Intermediate Programming
+      achieved: 16.0
+      outOf: 16.0
+    - name: Programming with Software Libraries
+      achieved: 16.0
+      outOf: 16.0
+    - name: Introduction to Linear Algebra
+      achieved: 16.0
+      outOf: 16.0
+    - name: Introduction to Programming
+      achieved: 16.0
+      outOf: 16.0
