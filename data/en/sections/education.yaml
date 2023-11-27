@@ -118,3 +118,34 @@ degrees:
     - name: Introduction to Programming
       achieved: 16.0
       outOf: 16.0
+- name: HS Diploma
+  icon: fa-school
+  timeframe: 2015-2019
+  institution:
+    name: Loara High School
+    url: "https://loara.auhsd.us"
+  grade:
+    scale: WGPA
+    achieved: 4.26
+    outOf: 5.0
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: AP English Literature
+    - name: AP American Government and Politics/Economics Honors
+    - name: AP Calculus BC
+    - name: AP Physics 1
+    - name: AP Computer Science Principles
+    - name: AP English Language Composition
+    - name: US History and Geography
+    - name: AP Calculus AB
+    - name: AP Chemistry
+    - name: English 2 Honors
+    - name: AP European History
+    - name: Math 4/5 Honors
+    - name: Chemistry Honors
+    - name: English 1 Honors
+    - name: Business Systems and Technology/Health Sciences 1
+    - name: Math 3/4 Honors
+    - name: Biology Honors
