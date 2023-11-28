@@ -10,27 +10,27 @@ section:
 skills:
 - name: Python
   logo: "images/langs/python.svg"
-  summary: "The programming language that lets you work quickly and integrate systems more efficiently."
+  summary: "My first programming language. I consider it my \"native tongue\" when it comes to programming languages."
   url: "https://www.python.org"
 
 - name: Rust
   logo: "images/langs/rust.svg"
-  summary: "The programming language that empowers all to build reliable and efficient software."
+  summary: "A language that is quickly becoming my favorite. Providing both the performance of low level languages with the features of a high level language in the best way I've seen."
   url: "https://www.rust-lang.org"
 
 - name: Java
   logo: "images/langs/java.svg"
-  summary: "The programming language that runs on billions of devices everyday."
+  summary: "The language that solidified my understanding of object oriented programming and helped me explore design patterns."
   url: "https://www.java.com/en/"
 
-- name: Shell
+- name: Bash
   logo: "images/langs/shell.svg"
-  summary: "The way nerds (like me) prefer to interact with computers in today's GUI world."
+  summary: "My preferred method of interacting with a computer in todya's GUI world."
   url: "https://www.gnu.org/software/bash/"
 
 - name: JavaScript
   logo: "images/langs/js.svg"
-  summary: "The lightweight interpreted scripting language for the web (and other stuff too)."
+  summary: "The language that made desktop quality apps available on the web."
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 
 - name: C++
