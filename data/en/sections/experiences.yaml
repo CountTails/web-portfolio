@@ -18,10 +18,10 @@ experiences:
     start: Sept 2022
     end: June 2023
     responsibilities: 
-      - Instruct and supervise classes of 1 or more students.
-      - Assign homework assignments to help with review of a session's activities and content.
-      - Guide students through the completion of a final project and presentation.
-      - Provided parents with feedback on a per-session basis along with a detailed overall feedback after the end of a course.
+      - Lead classes across various programming languages and frameworks for individual and multiple students.
+      - Create homework assignments to assist students with reviewing concepts and activities covered during class.
+      - Assist students in completing a programming project to showcase their progression and creating a presentation to engage others.
+      - Provide parents with feedback session-by-session basis along with a detailed review after the end of a course.
 
 - company: 
     name: Box Inc.
@@ -34,10 +34,9 @@ experiences:
     end: Sept 2022
     responsibilities:
       - Familiarize myself with the ins-and-outs of professional software development.
-      - Contribute and manage a real-world software project while being able to utilize team resources to assist with completion.
+      - Contribute to and manage a real-world software project while being able to utilize team resources to assist with completion.
       - Participate in daily stand-up meetings to report progress and receive guidance on any blockers preventing further progress.
       - Design, implement, and test a new piece of software in the Python programming language.
-
 
 - company:
     name: "University of California, Irvine"
@@ -53,3 +52,22 @@ experiences:
       - Provide assistance to students with debugging, course assignments, or understanding course concepts.
       - Keep up to date with course schedule and assignements to provide quality assistance when needed.
       - Reflect on each lab section attended with a predetermined journaling format.
+- company:
+    name: "Union Bank"
+    url: "https://www.usbank.com/index.html"
+    location: "Anaheim, CA"
+    overview: Dispensing both lessons on financial literacy as well as bankable job training for students
+  positions:
+  - designation: Student Banker
+    start: Aug 2018
+    end: May 2019
+    responsibilities:
+      - Serve as a teller at the on-campus branch to provide basic banking services to students and faculty of Loara High School.
+      - Prepare presentations to educate students on various financial literacy topics.
+      - Encourage students to sign up for and use bank services by advertising availabe bank products.
+  - designation: Bank Intern
+    start: June 2018
+    end: Aug 2018
+    responsibilities:
+      - Visit various bank branches across southern California to observe daily operations and security protocols.
+      - Network with bank executives and other back office individuals from multiple departments.
