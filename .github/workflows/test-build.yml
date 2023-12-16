@@ -23,10 +23,5 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Install Site Theme
-        run: |
-          wget -c https://github.com/hugo-toha/toha/archive/refs/tags/v3.8.0.tar.gz -O - | tar -xz
-          mv toha-3.8.0/* themes/toha/ && rm -rf toha-3.8.0/
-
       - name: Generate Site
         run: hugo --minify
