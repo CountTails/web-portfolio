@@ -72,6 +72,21 @@ badges:
   percentage: 65
   color: "#FFA700"
 
+- type: certification
+  name: Introduction to Protocol Buffers
+  url: https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/ea770822-8796-46d4-ab24-e105566989cf-nathan-mendoza-1bc27dc9-c337-4f80-9e8b-802f89f5320b-certificate.pdf
+  badge: https://images.credly.com/size/680x680/images/f9690b1b-e389-4956-97be-a425bb03cbaa/image.png
+
+- type: certification
+  name: Introduction to Kubernetes
+  url: https://courses.edx.org/certificates/db888d99b17243d19118cdb52e07116c?_gl=1*259y82*_ga*MjEwNjY1NjgyLjE3MDE4OTYyNDA.*_ga_D3KS4KMDT0*MTcwNTQ3NTc2MS40Ny4wLjE3MDU0NzU3NjIuNTkuMC4w
+  badge: https://courses.edx.org/asset-v1:LinuxFoundationX+LFS158x+1T2022+type@thumbnail+block@course_image-png-375x200.jpg
+
+- type: certification
+  name: Exploring GraphQL
+  url: https://courses.edx.org/certificates/11ccd12359934d4b91053c7a0a9c6a0c?_gl=1*17v60lm*_ga*MjEwNjY1NjgyLjE3MDE4OTYyNDA.*_ga_D3KS4KMDT0*MTcwNTQ3NTc2MS40Ny4wLjE3MDU0NzU3NjcuNTQuMC4w
+  badge: https://courses.edx.org/asset-v1:LinuxFoundationX+LFS141x+1T2023+type@thumbnail+block@course_image-png-375x200.jpg
+
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
