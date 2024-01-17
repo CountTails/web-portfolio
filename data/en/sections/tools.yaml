@@ -45,7 +45,7 @@ skills:
 
 - name: Amazon Web Services (AWS)
   logo: images/tools/aws.svg
-  summary: "Capable of utilizing off-premesis comuting power. In particular, AWS lambda, API gateway, and AWS ECS."
+  summary: "Capable of utilizing off-premesis computing power. In particular, AWS lambda, API gateway, and AWS ECS."
   url: "https://aws.amazon.com"
 
 - name: Digital Ocean

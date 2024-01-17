@@ -22,14 +22,14 @@ buttons:
 projects:
 - name: Dotter
   role: Initial Contributer
-  timeline: "December 2023 - Present"
+  timeline: "January 2024"
   repo: "https://github.com/nathancmendoza/dotter"
   summary: A command line tool for linking and unlinking dotfile configurations
   tags: ["hobby", "rust", "active"]
 
 - name: Wardrobe application
   role: Initial Contributor
-  timeline: "November 2023 - Present"
+  timeline: "January 2024 - March 2024"
   repo: "https://github.com/unknown-wardrobe-app"
   summary: A web application for managing a personal wardrobe
   tags: ["hobby", "web-api", "python", "vuejs", "active"]
