@@ -9,7 +9,7 @@ const HomePage = () => {
   ];
 
   return (
-    <div>
+    <div className="bg-gray-800 text-gray-200">
       <PageTitle title="Info Page" />
       <NavigationList pages={otherPages} />
     </div>

@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 
 const NavigationList = ({ pages }) => {
   return (
-    <ul>
+    <ul className="text-lg text-center">
       {pages.map((page) => (
-        <li key={page.name}>
-          <Link to={page.path}>{page.name}</Link>
+        <li key={page.name} className="my-2">
+          <Link to={page.path} className="hover:text-blue-600 hover:underline">
+            {page.name}
+          </Link>
         </li>
       ))}
     </ul>
