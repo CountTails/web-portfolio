@@ -1,17 +1,16 @@
 import React from 'react';
-import PageTitle from '../components/PageTitle';
-import NavigationList from '../components/NavList';
+import Navbar from '../components/NavigationBar';
 
 const HomePage = () => {
   const otherPages = [
-    { name: 'Information', path: '/information' },
-    { name: 'About', path: '/about' },
+    { navtext: 'Home', navpath: '/' },
+    { navtext: 'About', navpath: '/about' },
+    { navtext: 'Info', navpath: '/information' },
   ];
 
   return (
     <div className="bg-gray-800 text-gray-200">
-      <PageTitle title="Home Page" />
-      <NavigationList pages={otherPages} />
+      <Navbar title="Homepage" navigationLinks={otherPages} />
     </div>
   );
 };

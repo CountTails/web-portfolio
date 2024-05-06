@@ -1,19 +1,19 @@
 import React from 'react';
-import PageTitle from '../components/PageTitle';
-import NavigationList from '../components/NavList';
+import Navbar from '../components/NavigationBar';
 
-const HomePage = () => {
+const InformationPage = () => {
+
   const otherPages = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
+    { navtext: 'Home', navpath: '/' },
+    { navtext: 'About', navpath: '/about' },
+    { navtext: 'Info', navpath: '/information' },
   ];
 
   return (
     <div className="bg-gray-800 text-gray-200">
-      <PageTitle title="Info Page" />
-      <NavigationList pages={otherPages} />
+      <Navbar title="Info Page" navigationLinks={otherPages} />
     </div>
   );
 };
 
-export default HomePage;
+export default InformationPage;
