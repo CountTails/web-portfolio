@@ -29,6 +29,7 @@ const TypingCarousel = ({ phrases }) => {
     <div className='text-xl font-mono'>
       <span>{currentString}</span>
       <span className={`${isTyping ? 'animate-ping' : ''}`}>|</span>
+      <span className='sr-only' aria-live='polite' aria-atomic='true'>{phrases[currentStringIndex]}</span>
     </div>
   )
 };

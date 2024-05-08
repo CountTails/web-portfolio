@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Navbar from '../components/NavigationBar';
 
 import GreetingCard from '../components/GreetingCard';
@@ -9,6 +9,7 @@ const HomePage = () => {
     { navtext: 'About', navpath: '/about' },
     { navtext: 'Info', navpath: '/information' },
   ];
+  const targetRef = useRef(null);
 
   const greeting = 'Welcome to my website!';
   const captions = [
@@ -19,7 +20,10 @@ const HomePage = () => {
   return (
     <div className="bg-gray-800 text-gray-200">
       <Navbar title="Homepage" navigationLinks={otherPages} />
-      <GreetingCard greeting={greeting} captions={captions} />
+      <GreetingCard greeting={greeting} phraseRotation={captions} scrollDownTarget={targetRef} />
+      <div ref={targetRef} className='text-center text-2xl mt-4'>
+        <p>This is the next component</p>
+      </div>
     </div>
   );
 };

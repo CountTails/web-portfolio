@@ -3,14 +3,9 @@ import avatar from '../assets/avatar.png';
 import background from '../assets/background.jpg';
 
 import TypingCarousel from './TypingCarousel';
+import ScrollDownIndicator from './ScrollDownIndicator';
 
-const GreetingCard = () => {
-
-  const phrases = [
-    'This is the first phrase in the TypingCarousel',
-    'This is the second phrase in the TypingCarousel',
-    'This is the third phrase in the TypingCarousel'
-  ]
+const GreetingCard = ({ greeting, phraseRotation, scrollDownTarget }) => {
 
   return (
     <div className="h-screen bg-cover bg-center" style={{ backgroundImage: `url(${background})` }}>
@@ -21,8 +16,9 @@ const GreetingCard = () => {
             src={avatar}
             alt="Avatar"
           />
-          <h1 className="text-3xl text-white mb-4">Hello, how are you today?</h1>
-          <TypingCarousel phrases={phrases} />
+          <h1 className="text-3xl text-white mb-4">{greeting}</h1>
+          <TypingCarousel phrases={phraseRotation} />
+          <ScrollDownIndicator targetRef={scrollDownTarget} />
         </div>
 
       </div>
