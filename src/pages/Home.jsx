@@ -1,8 +1,10 @@
 import React, { useRef } from 'react';
-import Navbar from '../components/NavigationBar';
 
+import Navbar from '../components/NavigationBar';
 import GreetingCard from '../components/GreetingCard';
 import SkillBadge from '../components/SkillBadge';
+import ExpandableSummary from '../components/ExpandableSummary';
+import ImageDetails from '../components/ImageDetails';
 
 import CardDisplay from '../layouts/CardDisplay';
 import Card from '../layouts/ItemCard';
@@ -46,6 +48,9 @@ const HomePage = () => {
           <SkillBadge label="ReactJS" percentage={78} color="#00ff00" />
           <SkillBadge label="ReactJS" percentage={90} color="#ff0000" />
         </CardDisplay>
+      </div>
+      <div>
+        <ExpandableSummary summary="ReactJS" details={<ImageDetails image={logo} details={{ 'name': 'ReactJS', 'description': 'Library for building web components', 'developer': 'Facebook' }} />} />
       </div>
     </div>
   );
