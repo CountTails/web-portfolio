@@ -1,12 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function ExpandableSummary({ summary, details }) {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleToggle = () => {
-    setIsOpen(!isOpen);
-  };
-
+function ExpandableSummary({ summary, details, isOpen, handleToggle }) {
   return (
     <div className="bg-gray-900">
       <div className="flex justify-between items-center">

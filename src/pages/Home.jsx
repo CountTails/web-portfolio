@@ -8,6 +8,7 @@ import ImageDetails from '../components/ImageDetails';
 
 import CardDisplay from '../layouts/CardDisplay';
 import Card from '../layouts/ItemCard';
+import SummaryCollection from '../layouts/SummaryCollection';
 
 import logo from '../assets/react.svg';
 import bg from '../assets/background.jpg';
@@ -24,6 +25,11 @@ const HomePage = () => {
   const captions = [
     'This is a simple website created using React.',
     'It is styled using Tailwind CSS.'
+  ]
+
+  const summaries = [
+    { summary: 'Summary 1', details: 'Details 1' },
+    { summary: 'Summary 2', details: 'Details 2' }
   ]
 
   return (
@@ -50,7 +56,13 @@ const HomePage = () => {
         </CardDisplay>
       </div>
       <div>
-        <ExpandableSummary summary="ReactJS" details={<ImageDetails image={logo} details={{ 'name': 'ReactJS', 'description': 'Library for building web components', 'developer': 'Facebook' }} />} />
+        <SummaryCollection>
+          {summaries.map((summary, index) => {
+            return (
+              <ExpandableSummary key={index} summary={summary.summary} details={summary.details} />
+            )
+          })}
+        </SummaryCollection>
       </div>
     </div>
   );
