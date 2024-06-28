@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/NavigationBar';
+import Navbar from '../layouts/NavigationBar';
 
 const AboutPage = () => {
 
