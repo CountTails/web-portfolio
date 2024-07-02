@@ -11,7 +11,7 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="bg-gray-800 text-gray-200">
+    <div className="text-white">
       <Navbar title="Homepage" navigationLinks={otherPages} />
       <AlternatingBackground>
         <section>Section 1</section>
