@@ -6,7 +6,7 @@ const AlternatingBackground = ({ children }) => {
       {children.map((child, index) => (
         <div
           key={index}
-          className={`${index % 2 === 0 ? 'bg-sky-900' : 'bg-sky-600'} h-screen`}
+          className={`${index % 2 === 0 ? 'bg-sky-900' : 'bg-sky-600'}`}
         >
           <div>{child}</div>
         </div>
