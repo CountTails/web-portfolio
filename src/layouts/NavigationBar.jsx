@@ -7,7 +7,7 @@ function Navbar({ title, navigationLinks }) {
   const toggleDropdown = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-amythest-dark text-white flex items-center justify-between px-8 py-4">
+    <nav className="bg-blue-950 text-white flex items-center justify-between px-8 py-4">
       {/* Logo and Title */}
       <div className="flex items-center">
         <img src={logo} alt="Website Logo" className="h-8 mr-3" />
@@ -40,7 +40,7 @@ function Navbar({ title, navigationLinks }) {
 
       {/* Navigation Links Dropdown (Small Screens) */}
       <ul
-        className={`md:hidden absolute bg-amythest-dark text-white px-4 py-2 mt-2 right-4 top-12 ${isOpen ? 'block' : 'hidden'
+        className={`md:hidden absolute bg-blue-950 text-white px-4 py-2 mt-2 right-4 top-12 ${isOpen ? 'block' : 'hidden'
           }`}
       >
         {navigationLinks.map((link) => (
