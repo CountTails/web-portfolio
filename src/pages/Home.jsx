@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '@/assets/react.svg';
+import avatar from '@/assets/avatar.png';
 
 import Navbar from '@/layouts//NavigationBar';
 import AlternatingBackground from '@/layouts/AlternatingBackground';
@@ -12,7 +12,11 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 
 const HomePage = () => {
@@ -35,13 +39,17 @@ const HomePage = () => {
               </CardHeader>
               <CardContent>
                 <FlexStage>
-                  <img src={logo} />
+                  <img src={avatar} className='border-4 border-zinc-800 rounded-full scale-75' />
                 </FlexStage>
               </CardContent>
               <CardFooter>
                 <FlexStage>
-                  <p className='text-left'>Here is my resume</p>
-                  <p className='text-right'>Here are my sorcial profiles</p>
+                  <Button className='text-white hover:text-black bg-zinc-800 hover:bg-slate-200' variant='outline'>My Resume</Button>
+                  <FlexStage>
+                    <Badge className='bg-zinc-800 mx-2 hover:bg-slate-200 hover:text-black my-2'> <FaEnvelope /></Badge>
+                    <Badge className='bg-zinc-800 mx-2 hover:bg-slate-200 hover:text-black my-2'> <FaGithub /></Badge>
+                    <Badge className='bg-zinc-800 mx-2 hover:bg-slate-200 hover:text-black my-2'> <FaLinkedin /></Badge>
+                  </FlexStage>
                 </FlexStage>
               </CardFooter>
             </Card>
