@@ -3,6 +3,8 @@ import React from 'react';
 import Avatar from '@/content/about/_Avatar';
 import ProfessionalSummary from '@/content/about/_ProfessionalSummary';
 
+import AboutConfig from '@/data/about.config';
+
 import {
     Card,
     CardContent,
@@ -17,8 +19,8 @@ const InfoCard = () => {
         <section className='container flex justify-center'>
             <Card className='bg-cyan-600 w-full m-4 md:m-8 lg:m-12'>
               <CardHeader>
-                <CardTitle className='text-center'>How's it going? I'm Nathan</CardTitle>
-                <CardDescription className='text-center'>Here's a little bit about me!</CardDescription>
+                <CardTitle className='text-center'>{AboutConfig.infocard.header.title}</CardTitle>
+                <CardDescription className='text-center'>{AboutConfig.infocard.header.description}</CardDescription>
               </CardHeader>
               <CardContent>
                 <Avatar />

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import avatar from '@/assets/avatar.png';
+import AboutConfig from '@/data/about.config';
 
 const Avatar = () => {
     return (
         <div className='container flex justify-center'>
-            <img src={avatar} className='border-4 border-zinc-800 rounded-full scale-75' />
+            <img src={AboutConfig.infocard.content.photo} className='border-4 border-zinc-800 rounded-full scale-75' />
         </div>
     )
 }
