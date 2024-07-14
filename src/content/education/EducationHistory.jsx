@@ -7,6 +7,8 @@ import {
     AccordionTrigger,
   } from "@/components/ui/accordion"
 
+import SchoolDetails from '@/content/education/SchoolDetails';
+
 const EducationHistory = () => {
     const schools = [
         'school 1',
@@ -23,7 +25,9 @@ const EducationHistory = () => {
                             return (
                                 <AccordionItem value={s}>
                                     <AccordionTrigger>{`Summary of ${s}`}</AccordionTrigger>
-                                    <AccordionContent>{`Details of ${s}`}</AccordionContent>
+                                    <AccordionContent>
+                                        <SchoolDetails />
+                                    </AccordionContent>
                                 </AccordionItem>
                             )
                         })
