@@ -7,7 +7,7 @@ function Navbar({ title, navigationLinks }) {
   const toggleDropdown = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-blue-950 text-white flex items-center justify-between px-8 py-4">
+    <nav className="sticky top-0 bg-blue-950 text-white flex items-center justify-between px-8 py-4">
       {/* Logo and Title */}
       <div className="flex items-center">
         <img src={logo} alt="Website Logo" className="h-8 mr-3" />
