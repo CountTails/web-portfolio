@@ -6,6 +6,7 @@ import AlternatingBackground from '@/layouts/AlternatingBackground';
 import InfoCard from '@/content/about/InfoCard';
 import SkillsToolbox from '@/content/skills/SkillsToolbox';
 import EducationHistory from '@/content/education/EducationHistory';
+import ProjectList from '@/content/projects/ProjectList';
 
 
 const HomePage = () => {
@@ -22,6 +23,7 @@ const HomePage = () => {
         <InfoCard />
         <SkillsToolbox />
         <EducationHistory />
+        <ProjectList />
       </AlternatingBackground>
 
     </div>
