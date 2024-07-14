@@ -7,6 +7,7 @@ import InfoCard from '@/content/about/InfoCard';
 import SkillsToolbox from '@/content/skills/SkillsToolbox';
 import EducationHistory from '@/content/education/EducationHistory';
 import ProjectList from '@/content/projects/ProjectList';
+import JobHistory from '@/content/jobs/JobHistory';
 
 
 const HomePage = () => {
@@ -24,6 +25,7 @@ const HomePage = () => {
         <SkillsToolbox />
         <EducationHistory />
         <ProjectList />
+        <JobHistory />
       </AlternatingBackground>
 
     </div>
