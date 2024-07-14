@@ -5,6 +5,7 @@ import AlternatingBackground from '@/layouts/AlternatingBackground';
 
 import InfoCard from '@/content/about/InfoCard';
 import SkillsToolbox from '@/content/skills/SkillsToolbox';
+import EducationHistory from '@/content/education/EducationHistory';
 
 
 const HomePage = () => {
@@ -20,7 +21,7 @@ const HomePage = () => {
       <AlternatingBackground>
         <InfoCard />
         <SkillsToolbox />
-        <section>Section 3</section>
+        <EducationHistory />
       </AlternatingBackground>
 
     </div>
