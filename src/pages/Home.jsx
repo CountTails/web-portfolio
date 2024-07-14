@@ -4,6 +4,7 @@ import Navbar from '@/layouts//NavigationBar';
 import AlternatingBackground from '@/layouts/AlternatingBackground';
 
 import InfoCard from '@/content/about/InfoCard';
+import SkillsToolbox from '@/content/skills/SkillsToolbox';
 
 
 const HomePage = () => {
@@ -18,7 +19,7 @@ const HomePage = () => {
       <Navbar title="Homepage" navigationLinks={otherPages} />
       <AlternatingBackground>
         <InfoCard />
-        <section>Section 2</section>
+        <SkillsToolbox />
         <section>Section 3</section>
       </AlternatingBackground>
 
