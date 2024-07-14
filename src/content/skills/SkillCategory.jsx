@@ -1,5 +1,7 @@
 import React from 'react';
 
+import logo from '@/assets/react.svg'
+
 import {
     Card,
     CardContent,
@@ -8,18 +10,22 @@ import {
     CardTitle,
   } from "@/components/ui/card";
 
+import SkillDrawer from '@/content/skills/SkillDrawer';
+
 
 const SkillCategory = () => {
     return (
         <Card className='bg-cyan-500 my-4'>
             <CardHeader>
-                <CardTitle>Skill name</CardTitle>
+                <CardTitle className='text-center'>
+                    <span>Skill Name</span>
+                </CardTitle>
             </CardHeader>
-            <CardContent>
-                <p>Skill Description</p>
+            <CardContent className='container flex flex-wrap justify-center'>
+                    <img src={logo}/>
             </CardContent>
             <CardFooter>
-                <p>Skill details</p>
+                <SkillDrawer />
             </CardFooter>
             
         </Card>
