@@ -1,6 +1,3 @@
-import avatar from '@/assets/avatar.png'
-import resume from '@/assets/resume.pdf'
-
 const AboutConfig = {
     infocard: {
         header: {
@@ -8,14 +5,14 @@ const AboutConfig = {
             description: "Here's a little bit about me!"
         },
         content: {
-            photo: avatar,
+            photo: "about/avatar.png",
         },
         footer: {
-            resumeFile: resume,
+            resumeFile: "files/resume.pdf",
             socialLinks: {
-                email: "mailto:nathancm@uci.edu",
-                github: "https://www.github.com/nathancmendoza",
-                linkedin: "https://www.linkedin.com/in/nathancmendoza"
+                email: "nathancm@uci.edu",
+                github: "nathancmendoza",
+                linkedin: "nathancmendoza"
             }
         }
     }
