@@ -1,7 +1,5 @@
 import React from 'react';
 
-import logo from '@/assets/react.svg'
-
 import {
     Card,
     CardContent,
@@ -12,22 +10,25 @@ import {
 
 import SkillDrawer from '@/content/skills/SkillDrawer';
 
+import SiteConfig from '@/data/site.config';
+import skillConfig from '@/data/skills.config';
 
-const SkillCategory = () => {
+
+const SkillCategory = ({name}) => {
+    const skill = skillConfig.skillSets.filter((skill) => skill.name === name)[0];
     return (
         <Card className='bg-cyan-500 my-4'>
             <CardHeader>
                 <CardTitle className='text-center'>
-                    <span>Skill Name</span>
+                    <span>{skill.name}</span>
                 </CardTitle>
             </CardHeader>
             <CardContent className='container flex flex-wrap justify-center'>
-                    <img src={logo}/>
+                    <img src={`${SiteConfig.url}/images/${skill.image}`}/>
             </CardContent>
             <CardFooter>
-                <SkillDrawer />
+                <SkillDrawer subskills={skill.subSkills}/>
             </CardFooter>
-            
         </Card>
     )
 }
