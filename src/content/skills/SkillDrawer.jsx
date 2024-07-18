@@ -46,14 +46,31 @@ const SkillDrawer = ({skills}) => {
                                             </CardDescription>
                                         </CardHeader>
                                         <CardContent className='grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center'>
-                                            <div className='border border-solid rounded-md p-4'>
-                                                <p>{`Skill ${s.skillName} acquirement`}</p>
-                                                <p>{`Description of how skill ${s.skillName} was acquired`}</p>
-                                                
+                                            <div className='border border-solid rounded-md p-4 w-full'>
+                                                <span className="text-xl text-bold">{`Skill ${s.skillName} acquirement`}</span>
+                                                <Separator className='my-4'/>
+                                                <ol className="list-inside list-decimal">
+                                                    {
+                                                        s.acquirement.map((step) => {
+                                                            return (
+                                                                <li>{step}</li>
+                                                            );
+                                                        })
+                                                    }
+                                                </ol>                                
                                             </div>
-                                            <div className='border border-solid rounded-md p-4'>
-                                                <p>{`Skill ${s.skillName} usage`}</p>
-                                                <p>{`Description of how skill ${s.skillName} has been used`}</p>
+                                            <div className='border border-solid rounded-md p-4 w-full'>
+                                            <span className="text-xl text-bold">{`Skill ${s.skillName} utilization`}</span>
+                                                <Separator className='my-4'/>
+                                                <ol className="list-inside list-decimal">
+                                                    {
+                                                        s.utilization.map((step) => {
+                                                            return (
+                                                                <li>{step}</li>
+                                                            );
+                                                        })
+                                                    }
+                                                </ol> 
                                             </div>
                                         </CardContent>
                                     </Card>
