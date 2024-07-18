@@ -11,23 +11,21 @@ import {
 import SkillDrawer from '@/content/skills/SkillDrawer';
 
 import SiteConfig from '@/data/site.config';
-import skillConfig from '@/data/skills.config';
 
 
-const SkillCategory = ({name}) => {
-    const skill = skillConfig.skillSets.filter((skill) => skill.name === name)[0];
+const SkillCategory = ({skillCategoryName, categoryImage, categorySkills}) => {
     return (
         <Card className='bg-cyan-500 my-4'>
             <CardHeader>
                 <CardTitle className='text-center'>
-                    <span>{skill.name}</span>
+                    <span>{skillCategoryName}</span>
                 </CardTitle>
             </CardHeader>
             <CardContent className='container flex flex-wrap justify-center'>
-                    <img src={`${SiteConfig.url}/images/${skill.image}`}/>
+                    <img src={`${SiteConfig.url}/images/${categoryImage}`}/>
             </CardContent>
             <CardFooter>
-                <SkillDrawer subskills={skill.subSkills}/>
+                <SkillDrawer skills={categorySkills}/>
             </CardFooter>
         </Card>
     )

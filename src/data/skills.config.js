@@ -1,134 +1,110 @@
-const skillConfig = {
+const SkillConfig = {
     skillSets: [
         {
-            name: "Skill A",
-            priority: 1,
-            image: "skillsets/react.svg",
-            subSkills: [
+            skillCategoryName: "Skill A",
+            categoryImage: "skillsets/react.svg",
+            categorySkills: [
                 {
-                    name: "sub-skill A1",
-                    priority: 1,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill A1",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill A2",
-                    priority: 2,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill A2",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill A3",
-                    priority: 3,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill A3",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill A4",
-                    priority: 4,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill A4",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill A5",
-                    priority: 5,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill A5",
+                    skillImage: "skillsets/react.svg"
                 }
             ]
         },
         {
-            name: "Skill B",
-            priority: 1,
-            image: "skillsets/react.svg",
-            subSkills: [
+            skillCategoryName: "Skill B",
+            categoryImage: "skillsets/react.svg",
+            categorySkills: [
                 {
-                    name: "sub-skill B1",
-                    priority: 1,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill B1",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill B2",
-                    priority: 2,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill B2",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill B3",
-                    priority: 3,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill B3",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill B4",
-                    priority: 4,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill B4",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill B5",
-                    priority: 5,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill B5",
+                    skillImage: "skillsets/react.svg"
                 }
             ]
         },
         {
-            name: "Skill C",
-            priority: 1,
-            image: "skillsets/react.svg",
-            subSkills: [
+            skillCategoryName: "Skill C",
+            categoryImage: "skillsets/react.svg",
+            categorySkills: [
                 {
-                    name: "sub-skill C1",
-                    priority: 1,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill C1",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill C2",
-                    priority: 2,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill C2",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill C3",
-                    priority: 3,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill C3",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill C4",
-                    priority: 4,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill C4",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill C5",
-                    priority: 5,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill C5",
+                    skillImage: "skillsets/react.svg"
                 }
             ]
         },
         {
-            name: "Skill D",
-            priority: 1,
-            image: "skillsets/react.svg",
-            subSkills: [
+            skillCategoryName: "Skill D",
+            categoryImage: "skillsets/react.svg",
+            categorySkills: [
                 {
-                    name: "sub-skill D1",
-                    priority: 1,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill D1",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill D2",
-                    priority: 2,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill D2",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill D3",
-                    priority: 3,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill D3",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill D4",
-                    priority: 4,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill D4",
+                    skillImage: "skillsets/react.svg"
                 },
                 {
-                    name: "sub-skill D5",
-                    priority: 5,
-                    image: "skillsets/react.svg"
+                    skillName: "sub-skill D5",
+                    skillImage: "skillsets/react.svg"
                 }
             ]
         }
     ]
 };
 
-export default skillConfig;
+export default SkillConfig;

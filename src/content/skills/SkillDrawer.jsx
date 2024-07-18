@@ -22,9 +22,8 @@ import { Separator } from "@/components/ui/separator"
 
 import SiteConfig from "@/data/site.config";
 
-const SkillDrawer = ({subskills}) => {
-    console.log(subskills);
-    subskills.sort((skillA, skillB) => skillA.priority - skillA.priority);
+const SkillDrawer = ({skills}) => {
+    console.log(skills);
     return (
         <Drawer>
             <DrawerTrigger asChild>
@@ -36,25 +35,25 @@ const SkillDrawer = ({subskills}) => {
                 </DrawerHeader>
                     <ScrollArea className='h-[50vh]'>
                         {
-                            subskills.map((s) => {
+                            skills.map((s) => {
                                 return (
                                     <Card className='my-8 mx-6 bg-cyan-800'>
                                         <CardHeader className='text-center'>
-                                            <CardTitle>{s.name}</CardTitle>
+                                            <CardTitle>{s.skillName}</CardTitle>
                                             <CardDescription className='container flex flex-wrap justify-center'>
-                                                <img src={`${SiteConfig.url}/images/${s.image}`} />
+                                                <img src={`${SiteConfig.url}/images/${s.skillImage}`} />
                                                 <Separator className='my-4'/>
                                             </CardDescription>
                                         </CardHeader>
                                         <CardContent className='grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center'>
                                             <div className='border border-solid rounded-md p-4'>
-                                                <p>{`Skill ${s.name} acquirement`}</p>
-                                                <p>{`Description of how skill ${s.name} was acquired`}</p>
+                                                <p>{`Skill ${s.skillName} acquirement`}</p>
+                                                <p>{`Description of how skill ${s.skillName} was acquired`}</p>
                                                 
                                             </div>
                                             <div className='border border-solid rounded-md p-4'>
-                                                <p>{`Skill ${s.name} usage`}</p>
-                                                <p>{`Description of how skill ${s.name} has been used`}</p>
+                                                <p>{`Skill ${s.skillName} usage`}</p>
+                                                <p>{`Description of how skill ${s.skillName} has been used`}</p>
                                             </div>
                                         </CardContent>
                                     </Card>
