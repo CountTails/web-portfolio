@@ -18,7 +18,7 @@ const SkillCategory = ({skillCategoryName, categoryImage, categorySkills}) => {
         <Card className='bg-cyan-500 my-4'>
             <CardHeader>
                 <CardTitle className='text-center'>
-                    <span>{skillCategoryName}</span>
+                    {skillCategoryName}
                 </CardTitle>
             </CardHeader>
             <CardContent className='container flex flex-wrap justify-center'>

@@ -39,9 +39,15 @@ const SkillDrawer = ({skills}) => {
                                 return (
                                     <Card className='my-8 mx-6 bg-cyan-800'>
                                         <CardHeader className='text-center'>
-                                            <CardTitle>{s.skillName}</CardTitle>
-                                            <CardDescription className='container flex flex-wrap justify-center'>
+                                            <CardTitle className='container flex flex-wrap justify-center gap-x-4'>
                                                 <img src={`${SiteConfig.url}/images/${s.skillImage}`} />
+                                                <span>
+                                                    {s.skillName}
+                                                </span>
+                                                
+                                            </CardTitle>
+                                            <CardDescription className='container flex flex-wrap justify-center'>
+                                                <span>{s.skillDescription}</span>
                                                 <Separator className='my-4'/>
                                             </CardDescription>
                                         </CardHeader>
