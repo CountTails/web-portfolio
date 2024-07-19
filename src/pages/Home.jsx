@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 
 import Navbar from '@/layouts//NavigationBar';
 import AlternatingBackground from '@/layouts/AlternatingBackground';
@@ -11,6 +12,7 @@ import JobHistory from '@/content/jobs/JobHistory';
 
 
 const HomePage = () => {
+  const [currentSectionTitle, setCurrentSectionTitle] = useState(''); 
   const otherPages = [
     { navtext: 'Home', navpath: '/' },
     { navtext: 'About', navpath: '/about' },
@@ -19,13 +21,13 @@ const HomePage = () => {
 
   return (
     <div className="text-white">
-      <Navbar title="Homepage" navigationLinks={otherPages} />
-      <AlternatingBackground>
-        <InfoCard />
-        <SkillsToolbox />
-        <EducationHistory />
-        <ProjectList />
-        <JobHistory />
+      <Navbar title={currentSectionTitle} navigationLinks={otherPages} />
+      <AlternatingBackground setCurrentSectionTitle={setCurrentSectionTitle}>
+        <InfoCard title="Info"/>
+        <SkillsToolbox title="Skills"/>
+        <EducationHistory title="Education" />
+        <ProjectList title="Projects"/>
+        <JobHistory title="Experience"/>
       </AlternatingBackground>
 
     </div>
