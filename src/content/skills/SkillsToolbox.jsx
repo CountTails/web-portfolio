@@ -4,9 +4,9 @@ import SkillCategory from '@/content/skills/SkillCategory';
 
 import skillConfig from '@/data/skills.config';
 
-const SkillsToolbox = () => {
+const SkillsToolbox = ({id}) => {
     return (
-        <section>
+        <section id={id}>
             <div className='container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center py-16'>
                 {skillConfig.skillSets.map((skill) => {
                     return (

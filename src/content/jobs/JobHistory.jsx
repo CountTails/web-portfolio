@@ -9,7 +9,7 @@ import {
 
 import JobDetails from '@/content/jobs/_JobDetails';
 
-const JobHistory = () => {
+const JobHistory = ({id}) => {
     const schools = [
         'job 1',
         'job 2',
@@ -17,7 +17,7 @@ const JobHistory = () => {
     ];
 
     return (
-        <section>
+        <section id={id}>
             <div className='mx-12 py-16'>
                 <Accordion type='single' collapsible className='w-full'>
                     {

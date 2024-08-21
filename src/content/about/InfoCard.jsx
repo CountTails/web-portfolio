@@ -14,9 +14,9 @@ import {
     CardTitle,
   } from "@/components/ui/card";
 
-const InfoCard = () => {
+const InfoCard = ({id}) => {
     return (
-        <section className='container flex justify-center'>
+        <section id={id} className='container flex justify-center'>
             <Card className='bg-cyan-600 w-full m-4 md:m-8 lg:m-12'>
               <CardHeader>
                 <CardTitle className='text-center'>{AboutConfig.infocard.header.title}</CardTitle>
