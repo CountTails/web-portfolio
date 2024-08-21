@@ -14,20 +14,22 @@ import JobHistory from '@/content/jobs/JobHistory';
 const HomePage = () => {
   const [currentSectionTitle, setCurrentSectionTitle] = useState(''); 
   const otherPages = [
-    { navtext: 'Home', navpath: '/' },
-    { navtext: 'About', navpath: '/about' },
-    { navtext: 'Info', navpath: '/information' },
+    { navtext: 'About', navpath: '#aboutme' },
+    { navtext: 'Skills', navpath: '#keyskills' },
+    { navtext: 'Education', navpath: '#schools' },
+    { navtext: 'Projects', navpath: '#projects'},
+    { navtext: 'Experience', navpath: '#jobs'}
   ];
 
   return (
     <div className="text-white">
       <Navbar title={currentSectionTitle} navigationLinks={otherPages} />
       <AlternatingBackground setCurrentSectionTitle={setCurrentSectionTitle}>
-        <InfoCard title="Info"/>
-        <SkillsToolbox title="Skills"/>
-        <EducationHistory title="Education" />
-        <ProjectList title="Projects"/>
-        <JobHistory title="Experience"/>
+        <InfoCard id='aboutme' title="Info"/>
+        <SkillsToolbox id='keyskills' title="Skills"/>
+        <EducationHistory id='schools' title="Education" />
+        <ProjectList id='projects' title="Projects"/>
+        <JobHistory id='jobs' title="Experience"/>
       </AlternatingBackground>
 
     </div>
