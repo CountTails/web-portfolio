@@ -8,18 +8,18 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Recent Software Engineering Graduate
+designation: AI Software Engineer
 # your company information
 company:
-  name: University of California, Irvine
-  url: "https://www.uci.edu"
+  name: Data Annotations
+  url: "https://www.dataannotation.tech"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I'm a recent Software Engineering graduate ready to confidently kickstart my career in computer programming. Fueled by curiosity, I eagerly embrace challenges and continuous learning in this dynamic industry."
+summary: "I am new software engineer working with AI coding agents and the quality of their responses. I specialize with backend technologies and have an interest in computing infrastructure."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

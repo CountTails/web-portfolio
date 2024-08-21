@@ -1,0 +1,33 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  template: "sections/skills.html"
+
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Programming
+  summary: "Utilizing languages designed for specifying instructions for a computer to execute. Fluent in languages like Python, JavaScript and Java. Qutie familiar with HTML, CSS, TypeScript, Bash, and SQL. Have explored modern languages like Go, Rust, and Lua."
+
+- name: Web Services
+  summary: "Capable of exposing services through a variety of common web interfaces. Most comfortable with REST API and frameworks like FastAPI, Flask, and Express.js. Have explored alternative interfaces like websockets, graphQL, and gRPC with protocol buffers."
+
+- name: Data Management
+  summary: "Worked with both SQL (postgress, MySQL) and NoSQL (MongoDB) data management systems. Comfortable utilizing these system through programming languages with ORMs like Sequelize, SQLAlchemy, and Mongoose."
+
+- name: System Administration
+  summary: "Comfortable with Unix-like operating systems (Linux) and container technologies like docker and kubernetes. Regularly utilize git and GitHub for version control and well as GitHub actions to implement CI/CD pipelines. Have explored infrastructure as code solutions like Ansible."
+
+- name: Quality Assurance
+  summary: "Good practioner of test-driven development and able to write unit tests and consistency mock dependency scenario. Comfortable with unit testing frameworks like pytest and junit. Have explored browswer testing tools like selenium."
+
+- name: System Security
+  summary: "Able to utilize authentication techniques like JWTs in web applications. Roles-based access in databases and web applications provide fine-grained access control. Can use SSL certificates to secure a website's authenticity."
+
+- name: Software Development
+  summary: Able to gather and analyze requirements and judge appropriate design patterns to specify a system's implementation details. Comfortable with agile processes.
+
+- name: Web Interfaces
+  summary: Comfortable with UI frameworks like React and Angular. Have explored CSS alternatives like Tailwind CSS.

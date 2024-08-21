@@ -8,6 +8,12 @@ section:
   showOnNavbar: true
 
 degrees:
+- name: M.S. in Software Engineering
+  icon: fa-beaker
+  timeframe: 2024-2026
+  institution:
+    name: California State University, Fullerton
+    url: "https://www.fullerton.edu"
 - name: B.S. in Software Engineering
   icon: fa-graduation-cap
   timeframe: 2019-2023
