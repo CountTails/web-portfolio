@@ -8,13 +8,11 @@ image: "images/avatar/ncm.png"
 
 # contact information
 contactInfo:
-  github: nathancmendoza
+  github: CountTails
   linkedin: nathancmendoza
   email: "nathancm@uci.edu"
 
 # some summary about what I do
 summary:
-  - Proud member of the 2023 graduating class.
-  - Strong advocate for user data ownership
-  - Appreciate the practical application of theoretical concepts.
-  - Eagerly anticipating the launch of my career as a software engineer!
+  - Mastering the modern day practices of software engineering
+  - Absorbing all that I can in IT areas that I find interesting

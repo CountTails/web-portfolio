@@ -14,6 +14,16 @@ degrees:
   institution:
     name: California State University, Fullerton
     url: "https://www.fullerton.edu"
+  takenCourses:
+    showGrades: true
+    collapseAfter: 4
+    courses:
+    - name: System and Software Standards
+      achieved: 9.0
+      outOf: 12.0
+    - name: Advanced Software Processes
+      achieved: 12.0
+      outOf: 12.0
 - name: B.S. in Software Engineering
   icon: fa-graduation-cap
   timeframe: 2019-2023

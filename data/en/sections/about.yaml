@@ -8,25 +8,25 @@ section:
   template: sections/about.html
 
 # your designation
-designation: AI Software Engineer
+designation: Graduate Student
 # your company information
 company:
-  name: Data Annotations
-  url: "https://www.dataannotation.tech"
+  name: CSU Fullerton
+  url: "https://www.fullerton.edu"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am new software engineer working with AI coding agents and the quality of their responses. I specialize with backend technologies and have an interest in computing infrastructure."
+summary: "I am new graduate student at CSU Fullerton working towards obtaining my Master's degree in Software Engineering. I specialize with backend technologies and have an interest in computing infrastructure."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/nathancmendoza"
+  url: "https://www.github.com/CountTails"
 
 - name: Email
   icon: "fas fa-envelope"

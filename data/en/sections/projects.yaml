@@ -20,23 +20,23 @@ section:
 
 # your projects
 projects:
-- name: Fit Check 
+- name: Match Scheduling Bot
   role: Initial Contributer
-  timeline: "July 2024"
+  timeline: "December 2024 - Present"
   repo: "https://github.com/fit-check-app"
-  summary: A full stack application for managing a wardrobe. Helps user track clothing and outfits in their closet.
+  summary: A Discord bot that manages a match calendar and allows CRUD operations via slash commands.
   tags: []
 
-- name: Safe callback
+- name: Safe Callback Package
   role: Initial contributor
   timeline: "April 2024 -  June 2024"
   repo: "https://github.com/nathancmendoza/safe_callback"
-  summary: A python package offering a decorator based solution for handling exceptions in python programs.
+  summary: A python package offering a decorator based solution for handling exceptions in python functions.
   tags: []
 
-- name: Dot Ctl
+- name: Dotfiles Controller Utility
   role: Initial Contributor
   timeline: "September 2023 - March 2024"
   repo: "https://github.com/nathancmendoza/dotctl"
-  summary: A CLI tool writeen in rust for setting up and teardown dotfile environments.
+  summary: A CLI tool written in rust for setting up and teardown user configuration files (AKA "dotfiles") automatically.
   tags: []

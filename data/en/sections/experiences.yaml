@@ -8,19 +8,6 @@ section:
 
 experiences:
 - company:
-    name: "Data Annotations"
-    url: "https://www.dataannotation.tech"
-    overview: "Transforming AI in the context of software engineering"
-
-  positions:
-  - designation: "AI Software Engineer"
-    start: Jan 2023
-    responsibilities:
-      - Evaluate chatbot responses to software engineering and programming queries on criteria such as correctness and helpfulness
-      - Create complex prompts to begin discussions in software engineering topics meant to challenge current AI capabilities
-      - Compare 2 responses side-by-side to determine which AI model performed better in both single-turn and multi-turn conversations
-
-- company:
     name: "Coding Minds LLC"
     url: "https://codingmindsacademy.com"
     location: "Irvine, CA"
